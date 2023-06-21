@@ -1,0 +1,23 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Swarnendu,Habiba,Shivendra,Adarsh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "is-url": "^1.2.4",
+    "mongoose": "^7.2.2",
+    "nanoid": "^3.3.6",
+    "nodemon": "^2.0.22",
+    "redis": "^3.0.0",
+    "url": "^0.11.0",
+    "validator": "^13.9.0"
+  }
+}
